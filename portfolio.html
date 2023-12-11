@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="Basma Resume / CV Template">
+    <meta name="keywords" content="personal, html5, vTemplate, resposnive, retina, resume, jquery, css3, bootstrap, portfolio">
+    <meta name="author" content="themearabia.net">
+    <link rel="shortcut icon" href="images/favicon.png">
+    <title>Portfolio - Basma Resume / CV Template</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="sidebar-left ltr en music">
+    <!-- Preloader style 1 -->
+    <div class="loader-overlay">
+        <div class="loader1">
+            <div class="loader-container">
+                <div class="lt"></div>
+                <div class="rt"></div>
+                <div class="lb"></div>
+                <div class="rb"></div>
+            </div>
+        </div>
+    </div>
+    <!-- end Preloader -->
+    <!-- wrapper page -->
+    <div id="wrapper">
+        <!-- header -->
+        <header class="header">
+            <!-- profile picture -->
+            <div class="profile-picture">
+                <!-- profile avatar -->
+                <div class="profile-avatar">
+                    <img src="images/avatar.jpg" alt="Basma Designe" />
+                    <span class="dot"></span>
+                </div>
+                <!-- end profile avatar -->
+            </div>
+            <!-- end profile picture -->
+            <!-- background music -->
+            <a href="javascript:void(0)" class="bg-music">
+                <div class="music-eq">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </a>
+            <audio id="audio-player" src="audio/by_morninglightmusic_preview.mp3" preload="auto"></audio>
+            <!-- end background music -->
+            <!-- header content -->
+            <div class="header-content">
+                <!-- site navigation -->
+                <div class="site-nav">
+                    <!-- main menu -->
+                    <ul class="header-main-menu" id="header-main-menu">
+                        <li><a href="home.html" data-bs-toggle="popover" data-bs-trigger="hover" data-bs-content="Home"><i class="lnr lnr-home"></i></a></li>
+                        <li><a href="aboutme.html" data-bs-toggle="popover" data-bs-trigger="hover" data-bs-content="About Me"><i class="lnr lnr-user"></i></a></li>
+                        <li><a href="resume.html" data-bs-toggle="popover" data-bs-trigger="hover" data-bs-content="Resume"><i class="lnr lnr-license"></i></a></li>
+                        <li><a href="portfolio.html" class="active" data-bs-toggle="popover" data-bs-trigger="hover" data-bs-content="Portfolio"><i class="lnr lnr-briefcase"></i></a></li>
+                        <li><a href="blog.html" data-bs-toggle="popover" data-bs-trigger="hover" data-bs-content="Blog"><i class="lnr lnr-book"></i></a></li>
+                        <li><a href="contactme.html" data-bs-toggle="popover" data-bs-trigger="hover" data-bs-content="Contact Me"><i class="lnr lnr-envelope"></i></a></li>
+                        <li><a href="appointments.html" data-bs-toggle="popover" data-bs-trigger="hover" data-bs-content="Appointments"><i class="lnr lnr-calendar-full"></i></a></li>
+                        <li><a href="pricings.html" data-bs-toggle="popover" data-bs-trigger="hover" data-bs-content="Pricings"><i class="bx bx-dollar-circle"></i></a></li>
+                        <li><a href="support.html" data-bs-toggle="popover" data-bs-trigger="hover" data-bs-content="Support"><i class="lnr lnr-rocket"></i></a></li>
+                        <li><a href="faqs.html" data-bs-toggle="popover" data-bs-trigger="hover" data-bs-content="faqs"><i class="lnr lnr-question-circle"></i></a></li>
+                    </ul>
+                    <!-- end main menu -->
+                </div>
+                <!-- end site navigation -->
+            </div>
+            <!-- end header content -->
+        </header>
+        <!-- end header -->
+        <!-- mobile header -->
+        <div class="mobile-header mobile-visible">
+            <div class="mobile-logo-container">
+                <div class="mobile-header-image">
+                    <img src="images/avatar.jpg" alt="">
+                </div>
+                <div class="mobile-site-title">Basma Designe</div>
+            </div>
+            <a class="menu-toggle mobile-visible"><i class="lnr lnr-menu"></i></a>
+        </div>
+        <!-- end mobile header -->
+        <!-- main content pages -->
+        <div id="main" class="content-pages">
+            <!-- section pages -->
+            <div class="section-pages">
+
+                <!-- portfolio -->
+                <section id="portfolio" class="section-page animated section-portfolio active">
+                    <div class="section-body">
+                        <!-- container -->
+                        <div class="container">
+                            <!-- section-inner -->
+                            <div class="section-inner">
+                                <!-- section title -->
+                                <div class="section-title">
+                                    <h2>Portfolio</h2>
+                                    <p>Some of my work that was implemented in all services</p>
+                                    <div class="divider"></div>
+                                </div>
+                                <!-- end section title -->
+                                <!-- portfolio flters -->
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <ul id="portfolio-flters">
+                                            <li data-filter="*" class="filter-active filter-click">All</li>
+                                            <li data-filter=".filter-cat2">Web</li>
+                                            <li data-filter=".filter-cat3">Apps</li>
+                                            <li data-filter=".filter-cat4">Themes</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <!-- end portfolio flters -->
+                                <div class="row portfolio-container mb-30">
+                                    <!-- portfolio item -->
+                                    <div class="col-lg-4 col-md-6 col-sm-6 portfolio-item filter-cat3">
+                                        <div class="portfolio-wrap">
+                                            <img src="images/portfolio/01.jpg" class="img-fluid" alt="Project 1">
+                                            <div class="portfolio-info">
+                                                <h5>
+                                                    <a href="single-portfolio.html">Project 1</a>
+                                                </h5>
+                                                <p>Apps</p>
+                                                <div>
+                                                    <a href="javascript:void(0)" data-src="images/portfolio/01.jpg" data-fancybox="gallery" data-caption="<h5 class='text-white'>Project 1</h5>Lorem ipsum dolor sit amet." class="link-preview">
+                                                        <i class="pe-7s-expand1"></i>
+                                                    </a>
+                                                    <a href="single-portfolio.html" class="link-details" title="More details">
+                                                        <i class="pe-7s-link"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- end portfolio item -->
+                                    <!-- portfolio item -->
+                                    <div class="col-lg-4 col-md-6 col-sm-6 portfolio-item filter-cat3">
+                                        <div class="portfolio-wrap">
+                                            <img src="images/portfolio/02.jpg" class="img-fluid" alt="Project 2">
+                                            <div class="portfolio-info">
+                                                <h5>
+                                                    <a href="single-portfolio.html">Project 2</a>
+                                                </h5>
+                                                <p>Apps</p>
+                                                <div>
+                                                    <a href="javascript:void(0)" data-src="images/portfolio/02.jpg" data-fancybox="gallery" data-caption="<h5 class='text-white'>Project 2</h5>Lorem ipsum dolor sit amet." class="link-preview">
+                                                        <i class="pe-7s-expand1"></i>
+                                                    </a>
+                                                    <a href="single-portfolio.html" class="link-details" title="More details">
+                                                        <i class="pe-7s-link"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- end portfolio item -->
+                                    <!-- portfolio item -->
+                                    <div class="col-lg-4 col-md-6 col-sm-6 portfolio-item filter-cat3">
+                                        <div class="portfolio-wrap">
+                                            <img src="images/portfolio/03.jpg" class="img-fluid" alt="Project 3">
+                                            <div class="portfolio-info">
+                                                <h5>
+                                                    <a href="single-portfolio.html">Project 3</a>
+                                                </h5>
+                                                <p>Apps</p>
+                                                <div>
+                                                    <a href="javascript:void(0)" data-src="images/portfolio/03.jpg" data-fancybox="gallery" data-caption="<h5 class='text-white'>Project 3</h5>Lorem ipsum dolor sit amet." class="link-preview">
+                                                        <i class="pe-7s-expand1"></i>
+                                                    </a>
+                                                    <a href="single-portfolio.html" class="link-details" title="More details">
+                                                        <i class="pe-7s-link"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- end portfolio item -->
+                                    <!-- portfolio item -->
+                                    <div class="col-lg-4 col-md-6 col-sm-6 portfolio-item filter-cat4">
+                                        <div class="portfolio-wrap">
+                                            <img src="images/portfolio/04.jpg" class="img-fluid" alt="Project 4">
+                                            <div class="portfolio-info">
+                                                <h5>
+                                                    <a href="single-portfolio.html">Project 4</a>
+                                                </h5>
+                                                <p>Apps</p>
+                                                <div>
+                                                    <a href="javascript:void(0)" data-src="images/portfolio/04.jpg" data-fancybox="gallery" data-caption="<h5 class='text-white'>Project 4</h5>Lorem ipsum dolor sit amet." class="link-preview">
+                                                        <i class="pe-7s-expand1"></i>
+                                                    </a>
+                                                    <a href="single-portfolio.html" class="link-details" title="More details">
+                                                        <i class="pe-7s-link"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- end portfolio item -->
+                                    <!-- portfolio item -->
+                                    <div class="col-lg-4 col-md-6 col-sm-6 portfolio-item filter-cat4">
+                                        <div class="portfolio-wrap">
+                                            <img src="images/portfolio/05.jpg" class="img-fluid" alt="Project 5">
+                                            <div class="portfolio-info">
+                                                <h5>
+                                                    <a href="single-portfolio.html">Project 5</a>
+                                                </h5>
+                                                <p>Apps</p>
+                                                <div>
+                                                    <a href="javascript:void(0)" data-src="images/portfolio/05.jpg" data-fancybox="gallery" data-caption="<h5 class='text-white'>Project 5</h5>Lorem ipsum dolor sit amet." class="link-preview">
+                                                        <i class="pe-7s-expand1"></i>
+                                                    </a>
+                                                    <a href="single-portfolio.html" class="link-details" title="More details">
+                                                        <i class="pe-7s-link"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- end portfolio item -->
+                                    <!-- portfolio item -->
+                                    <div class="col-lg-4 col-md-6 col-sm-6 portfolio-item filter-cat2">
+                                        <div class="portfolio-wrap">
+                                            <img src="images/portfolio/06.jpg" class="img-fluid" alt="Project 6">
+                                            <div class="portfolio-info">
+                                                <h5>
+                                                    <a href="single-portfolio.html">Project 6</a>
+                                                </h5>
+                                                <p>Apps</p>
+                                                <div>
+                                                    <a href="javascript:void(0)" data-src="images/portfolio/06.jpg" data-fancybox="gallery" data-caption="<h5 class='text-white'>Project 6</h5>Lorem ipsum dolor sit amet." class="link-preview">
+                                                        <i class="pe-7s-expand1"></i>
+                                                    </a>
+                                                    <a href="single-portfolio.html" class="link-details" title="More details">
+                                                        <i class="pe-7s-link"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- end portfolio item -->
+                                    <!-- portfolio item -->
+                                    <div class="col-lg-4 col-md-6 col-sm-6 portfolio-item filter-cat2">
+                                        <div class="portfolio-wrap">
+                                            <img src="images/portfolio/07.jpg" class="img-fluid" alt="Project 7">
+                                            <div class="portfolio-info">
+                                                <h5>
+                                                    <a href="single-portfolio.html">Project 7</a>
+                                                </h5>
+                                                <p>Apps</p>
+                                                <div>
+                                                    <a href="javascript:void(0)" data-src="images/portfolio/07.jpg" data-fancybox="gallery" data-caption="<h5 class='text-white'>Project 7</h5>Lorem ipsum dolor sit amet." class="link-preview">
+                                                        <i class="pe-7s-expand1"></i>
+                                                    </a>
+                                                    <a href="single-portfolio.html" class="link-details" title="More details">
+                                                        <i class="pe-7s-link"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- end portfolio item -->
+                                    <!-- portfolio item -->
+                                    <div class="col-lg-4 col-md-6 col-sm-6 portfolio-item filter-cat4">
+                                        <div class="portfolio-wrap">
+                                            <img src="images/portfolio/08.jpg" class="img-fluid" alt="Project 8">
+                                            <div class="portfolio-info">
+                                                <h5>
+                                                    <a href="single-portfolio.html">Project 8</a>
+                                                </h5>
+                                                <p>Apps</p>
+                                                <div>
+                                                    <a href="javascript:void(0)" data-src="images/portfolio/08.jpg" data-fancybox="gallery" data-caption="<h5 class='text-white'>Project 8</h5>Lorem ipsum dolor sit amet." class="link-preview">
+                                                        <i class="pe-7s-expand1"></i>
+                                                    </a>
+                                                    <a href="single-portfolio.html" class="link-details" title="More details">
+                                                        <i class="pe-7s-link"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- end portfolio item -->
+                                    <!-- portfolio item -->
+                                    <div class="col-lg-4 col-md-6 col-sm-6 portfolio-item filter-cat2">
+                                        <div class="portfolio-wrap">
+                                            <img src="images/portfolio/09.jpg" class="img-fluid" alt="Project 9">
+                                            <div class="portfolio-info">
+                                                <h5>
+                                                    <a href="single-portfolio.html">Project 9</a>
+                                                </h5>
+                                                <p>Apps</p>
+                                                <div>
+                                                    <a href="javascript:void(0)" data-src="images/portfolio/09.jpg" data-fancybox="gallery" data-caption="<h5 class='text-white'>Project 9</h5>Lorem ipsum dolor sit amet." class="link-preview">
+                                                        <i class="pe-7s-expand1"></i>
+                                                    </a>
+                                                    <a href="single-portfolio.html" class="link-details" title="More details">
+                                                        <i class="pe-7s-link"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- end portfolio item -->
+                                    <!-- portfolio item -->
+                                    <div class="col-lg-4 col-md-6 col-sm-6 portfolio-item filter-cat2">
+                                        <div class="portfolio-wrap">
+                                            <img src="images/portfolio/10.jpg" class="img-fluid" alt="Project 10">
+                                            <div class="portfolio-info">
+                                                <h5>
+                                                    <a href="single-portfolio.html">Project 10</a>
+                                                </h5>
+                                                <p>Apps</p>
+                                                <div>
+                                                    <a href="javascript:void(0)" data-src="images/portfolio/10.jpg" data-fancybox="gallery" data-caption="<h5 class='text-white'>Project 10</h5>Lorem ipsum dolor sit amet." class="link-preview">
+                                                        <i class="pe-7s-expand1"></i>
+                                                    </a>
+                                                    <a href="single-portfolio.html" class="link-details" title="More details">
+                                                        <i class="pe-7s-link"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- end portfolio item -->
+                                    <!-- portfolio item -->
+                                    <div class="col-lg-4 col-md-6 col-sm-6 portfolio-item filter-cat3">
+                                        <div class="portfolio-wrap">
+                                            <img src="images/portfolio/11.jpg" class="img-fluid" alt="Project 11">
+                                            <div class="portfolio-info">
+                                                <h5>
+                                                    <a href="single-portfolio.html">Project 11</a>
+                                                </h5>
+                                                <p>Apps</p>
+                                                <div>
+                                                    <a href="javascript:void(0)" data-src="images/portfolio/11.jpg" data-fancybox="gallery" data-caption="<h5 class='text-white'>Project 11</h5>Lorem ipsum dolor sit amet." class="link-preview">
+                                                        <i class="pe-7s-expand1"></i>
+                                                    </a>
+                                                    <a href="single-portfolio.html" class="link-details" title="More details">
+                                                        <i class="pe-7s-link"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- end portfolio item -->
+                                    <!-- portfolio item -->
+                                    <div class="col-lg-4 col-md-6 col-sm-6 portfolio-item filter-cat1">
+                                        <div class="portfolio-wrap">
+                                            <img src="images/portfolio/12.jpg" class="img-fluid" alt="Project 12">
+                                            <div class="portfolio-info">
+                                                <h5>
+                                                    <a href="single-portfolio.html">Project 12</a>
+                                                </h5>
+                                                <p>Apps</p>
+                                                <div>
+                                                    <a href="javascript:void(0)" data-src="images/portfolio/12.jpg" data-fancybox="gallery" data-caption="<h5 class='text-white'>Project 12</h5>Lorem ipsum dolor sit amet." class="link-preview">
+                                                        <i class="pe-7s-expand1"></i>
+                                                    </a>
+                                                    <a href="single-portfolio.html" class="link-details" title="More details">
+                                                        <i class="pe-7s-link"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- end portfolio item -->
+                                </div>
+                            </div>
+                            <!-- end section-inner -->
+                        </div>
+                        <!-- end container -->
+                    </div>
+                </section>
+                <!-- end portfolio -->
+
+            </div>
+            <!-- end section pages -->
+        </div>
+        <!-- end main content pages -->
+    </div>
+    <!-- end wrapper page -->
+
+    <!-- go to top -->
+    <div class="go-up"><i class="lnr lnr-chevron-up"></i></div>
+    
+    <!-- COMMON SCRIPTS -->
+    <!-- jquery [use all pages] -->
+    <script src="js/jquery.min.js"></script>
+    <!-- bootstrap [use all pages] -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- music [use all pages] -->
+    <script src="js/music.js"></script>
+    <!-- portfolio filter [use one-page.html & portfolio.html] -->
+    <script src="js/isotope.pkgd.min.js"></script>
+    <!-- fancybox [use one-page.html & portfolio.html & single-portfolio.html & aboutme.html]-->
+    <script src="js/fancybox.min.js"></script>
+    <!-- main script [use all pages] -->
+    <script src="js/custom.js"></script>
+    
+</body>
+</html>
